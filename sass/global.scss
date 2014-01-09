@@ -2,16 +2,51 @@
     font-family: 'Josefin Sans', sans-serif;
   }
 
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+  }
 
   .title {
-    color: red;
+    text-align: center;
   }
 
   .description {
-      background: blue;
     }
 
   .author {
+    text-align: center;
     color: orange;
   }
+
+  .favorite-thing {
+    vertical-align: top;
+    display: inline-block;
+    width: 400px;
+    margin: 5px 10px 5px 10px;
+    padding: 0 5px 0 5px;
+    position: relative;
+  }
+
+  .text-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 10px;
+    color: white;
+    height: 100%;
+  }
+
+  .favorite-thing:hover .text-overlay {
+    display: block;
+  }
+
+  img {
+    max-width: 400px;
+  }
+
+
 
