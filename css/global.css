@@ -1,3 +1,11 @@
-h1 {
+.title {
   color: red;
+}
+
+.description {
+  background: blue;
+}
+
+.author {
+  color: orange;
 }
