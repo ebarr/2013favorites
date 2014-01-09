@@ -31,10 +31,13 @@ body {
   position: absolute;
   top: 0;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(11, 1, 28, 0.7);
   padding: 10px;
   color: white;
   height: 100%;
+}
+.text-overlay p {
+  font-size: 20px;
 }
 
 .favorite-thing:hover .text-overlay {
@@ -43,4 +46,19 @@ body {
 
 img {
   max-width: 400px;
+}
+
+header {
+  width: 100%;
+}
+header h1 {
+  color: #32047F;
+  font-size: 75px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+header p {
+  font-size: 20px;
+  float: left;
+  color: #32047F;
 }

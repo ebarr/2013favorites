@@ -34,10 +34,17 @@
     position: absolute;
     top: 0;
     z-index: 1;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: darken(rgba(50, 4, 127, .7), 20%);
     padding: 10px;
     color: white;
     height: 100%;
+    h2{
+
+
+    }
+    p {
+      font-size: 20px;
+    }
   }
 
   .favorite-thing:hover .text-overlay {
@@ -48,5 +55,21 @@
     max-width: 400px;
   }
 
+header {
+
+  width: 100%;
+  h1 {
+    color: #32047F;
+    font-size: 75px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+  }
+  p {
+    font-size: 20px;
+    float: left;
+    color: #32047F;
+  }
+}
 
 
